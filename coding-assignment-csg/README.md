@@ -28,6 +28,8 @@ POST endpoints:
 REST-API:- Counts how many words start with the letter M or m.
 
 URL:-http://localhost:8080/count-starting-with-m
+
+
 Payload:- {
     "words": [
         "Mango",
@@ -40,15 +42,17 @@ Payload:- {
 ---------------------------------------------------------------------------------
 REST-API:- Returns a list of words that have more than 5 characters.
 URL:- http://localhost:8080/longer-than-five
+
+
 Payload:- 
-{
-    "words": [
-        "Mango",
-        "apple",
-        "melon",
-        "Banana",
-        "muffin"
-    ]
-}
+    {
+        "words": [
+            "Mango",
+            "apple",
+            "melon",
+            "Banana",
+            "muffin"
+        ]
+    }
 
 -----------------------------------------------------------------------------------
